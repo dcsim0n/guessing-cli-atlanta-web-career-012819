@@ -16,9 +16,9 @@ def guess(input_guess)
 end
 
 def run_guessing_game()
-  puts "/Guess a number between 1 and 6./"
-  input = gets.chomp
   loop do
+    puts "/Guess a number between 1 and 6./"
+    input = gets.chomp
     if input == "exit"
       exit_game()
       break
